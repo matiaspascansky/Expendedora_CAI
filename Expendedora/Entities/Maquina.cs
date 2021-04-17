@@ -15,17 +15,10 @@ namespace Expendedora.Entities
         private List<Lata> latas;
 
 
-        /*
-         * (OBS01) El constructor que hiciste recibe dos parametros (capacidad y provedor)
-         * pero ninguna afectar al estado de la instancia
-         */
         public Maquina(int capacidad, String proveedor)
         {
             this.latas = new List<Lata>();
             this.encendida = false;
-            //Deberías agregar esto:
-            //this.capacidad = capacidad;
-            //this.proveedor = proveedor;
         }
 
         public void encenderMaquina() {
