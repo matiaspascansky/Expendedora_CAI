@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Expendedora.Entities
 {
+    /*
+    * (OBS01) El constructor que hiciste recibe dos parametros (capacidad y provedor)
+    * pero ninguna afectar al estado de la instancia
+    */
     class Maquina
     {
         private int capacidad;
